@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class TestBasket:
     @pytest.mark.parametrize("link", ["http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"])
-    def test_button_is_exists(self, browser, link):
+    def test_purchases_button_is_exists(self, browser, link):
         print("\nstart test_button_is_exists..")
         try:
             print("\nopen link: " + link)
